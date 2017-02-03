@@ -5,6 +5,7 @@
 * HeroThemes - Happier Customers, Fewer Support Tickets
 */
 
+//add filter
 add_filter('hkb_breadcrumbs_blog_home_label', 'ht_code_snippets_hkb_breadcrumbs_blog_home_label_filter', 10, 1);
 
 function  ht_code_snippets_hkb_breadcrumbs_blog_home_label_filter( $title ){
