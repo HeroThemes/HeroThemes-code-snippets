@@ -1,6 +1,6 @@
 <?php
 /**
-* Enable hierachical slugs for the ht_kb_category taxonomy
+* Enable hierarchical slugs for the ht_kb_category taxonomy
 * Code snippet by @HeroThemes (https://herothemes.com) - Knowledge Base Themes and Plugins for WordPress
 * HeroThemes - Happier Customers, Fewer Support Tickets
 */
