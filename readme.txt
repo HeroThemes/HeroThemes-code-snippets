@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, faq, widget, snippet
 Requires at least: 4.7
-Version: 0.3
+Version: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,7 @@ It's easy to get started
 3. If upgrading, ensure you deactivate and re-activate the plugin to ensure any upgrade routines are run correctly.
 4. In the WordPress Administration menu goto Code Snippet Settings and check all the snippets to activate, then click Save Changes. 
 5. Only Active snippets will be run (unless the snippet is pasted directly into a (child) theme's functions.php file) 
+6. Some snippets do not work when run in a plugin and MUST be placed in your theme's functions.php file
 
 
 == Frequently Asked Questions ==
@@ -36,6 +37,10 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.2 - 0.4 =
+
+Additional snippets
 
 = 0.1 =
 

@@ -18,7 +18,7 @@ if( !class_exists( 'HT_Code_Snippets' ) ){
         */
         function __construct(){
             //load snippets using the init call
-            add_action( 'init', array( $this, 'ht_load_code_snippets' ) );
+            add_action( 'init', array( $this, 'ht_load_code_snippets' ), 0 );
             //add ht_code_snippets_load filter, this can be used to include/exclude specific snippets
             add_filter( 'ht_code_snippets_load', array( $this, 'ht_load_code_snippets_load_filter' ), 10, 2 );
 
