@@ -95,10 +95,11 @@ if( !class_exists( 'HT_Code_Snippets_Admin' ) ){
                         </thead>
                         <tbody>
                             <?php foreach ($registered_snippets as $key => $name): ?>
+                                <?php $checked = (isset($active_snippets[$name])) ? checked( $active_snippets[$name], 1, false ) : ''; ?>
                                 <tr>
                                     <td>
                                         <input type="checkbox" name="ht_code_snippets_active_snippets[<?php echo $name; ?>]" 
-                                            value="1"  <?php checked( $active_snippets[$name], 1 ); ?> />
+                                            value="1"  <?php echo $checked; ?> />
                                     </td>
                                     <td>
                                          <?php echo esc_attr($name); ?>
