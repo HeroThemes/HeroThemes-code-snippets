@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, faq, widget, snippet
 Requires at least: 4.9
-Version: 0.6
+Version: 0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,10 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.7 =
+
+added ht_faq_builder_page_capability filter example
 
 = 0.6 =
 
