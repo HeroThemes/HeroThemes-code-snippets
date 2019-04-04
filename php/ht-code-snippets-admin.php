@@ -89,8 +89,8 @@ if( !class_exists( 'HT_Code_Snippets_Admin' ) ){
                     <table class="form-table">
                         <thead>
                             <tr>            
-                                <th style="width: 30px"><?php _e('Active', 'ht-code-snippets'); ?></th>
-                                <th><?php _e('Snippet Name', 'ht-code-snippets'); ?></th>
+                                <th style="width: 20px"><?php _e('Enabled', 'ht-code-snippets'); ?></th>
+                                <th style="width: 2000px"><?php _e('Snippet Name', 'ht-code-snippets'); ?></th>
                             </tr>
                         </thead>
                         <tbody>

@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, faq, widget, snippet
 Requires at least: 4.9
-Version: 0.7
+Version: 0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,17 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.8 =
+
+added ht_kb_related_articles action example
+added ht-kb-category-icons support example
+added {after}_hkb_get_template_part_{hkb-breadcrumbs} action example
+added {after}_hkb_get_template_part_{hkb-searchbox} action example
+added hkb_custom_excerpt_length filter example
+added example code to detect active widgets
+added hkb_data_cleaner_retention_cutoff_days filter example
+adjust column widths in admin
 
 = 0.7 =
 
