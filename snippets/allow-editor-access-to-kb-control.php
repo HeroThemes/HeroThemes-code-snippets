@@ -14,4 +14,4 @@ add_filter( 'ht_kb_category_ordering_page_capability', 'ht_code_snippets_editor_
 //add filter for analytics
 add_filter( 'hkba_analytics_page_capability', 'ht_code_snippets_editor_capability' );
 //add filter for settings page
-//add_filter( 'ht_knowledge_base_settings_page', 'ht_code_snippets_editor_capability' );
+add_filter( 'ht_knowledge_base_settings_page', 'ht_code_snippets_editor_capability' );

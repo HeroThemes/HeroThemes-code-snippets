@@ -13,13 +13,12 @@ add_action( 'init', 'ht_code_snippets_ht_kb_widgets_active', 10);
 function ht_code_snippets_ht_kb_widgets_active(){
 	$widgets = array('ht-kb-exit-widget', 'ht-kb-toc-widget');
 	$sidebar_id = 'sidebar-article';
-	$in = ht_is_widget_in_sidebar($widgets, $sidebar_id);
+	$in = ht_is_widget_in_sidebar_cs($widgets, $sidebar_id);
 	return $in;
 }
 
 
-
-function ht_is_widget_in_sidebar($widget_id=array(), $sidebar_id){
+function ht_is_widget_in_sidebar_cs($widget_id=array(), $sidebar_id){
 	$sidebars_widgets = wp_get_sidebars_widgets();
 	//cast to array if not already
 	$widget_id = (array)$widget_id;

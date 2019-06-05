@@ -1,8 +1,8 @@
 === HeroThemes Code Snippets ===
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, faq, widget, snippet
-Requires at least: 4.9
-Version: 0.8
+Requires at least: 5.2
+Version: 0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,14 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.9 =
+
+updated allow editor access filters
+updated are widgets enabled test
+new enable ht-faq example
+new test inline js debug example
+new test rest url filter debug example
 
 = 0.8 =
 
