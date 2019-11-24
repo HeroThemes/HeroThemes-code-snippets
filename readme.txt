@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, faq, widget, snippet
 Requires at least: 5.2
-Version: 0.9
+Version: 0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,12 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.10 =
+
+new allow analytics override filter example
+new enable/disable knowall package installation snippet
+new KnowAll one column archive example (note this is now an option in the theme)
 
 = 0.9 =
 
