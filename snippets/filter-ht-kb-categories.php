@@ -10,7 +10,7 @@ add_filter('hkb_master_tax_terms', 'ht_code_snippets_ht_kb_filter_tax_terms', 10
 
 function  ht_code_snippets_ht_kb_filter_tax_terms( $terms ){
 	//declare term ids to remove, these will need to match the term id (tip - edit a category to quickly find the ID)
-	$terms_to_remove = array(1174, 1114);
+	$terms_to_remove = array(6900, 1114);
 
 	//loop through the current terms
 	foreach ($terms as $key => $term) {
