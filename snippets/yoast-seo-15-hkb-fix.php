@@ -35,3 +35,29 @@ function ht_code_snippets_fix_yoast_hkb_front_page_description( $description){
 //wpseo_opengraph_title
 //wpseo_opengraph_url
 //wpseo_opengraph_type
+
+/**
+* A concept to get the title from the wpseo_titles
+* Needs additional work
+*/
+function ht_code_snippets_fix_yoast_hkb_front_page_title_concept($title) { 
+	if( ht_kb_is_ht_kb_front_page() ){
+		$titles = get_option( 'wpseo_titles' );
+		$yoast_seo_title_key = 'title-ptarchive-ht_kb';
+		if( is_array($titles) && array_key_exists( $yoast_seo_title_key, $titles && function_exists('wpseo_replace_vars') ) ){
+			$title  = $titles[ $yoast_seo_title_key ];
+			$title = apply_filters( 'the_title', $title );
+			//replace the variables
+			if( function_exists('wpseo_replace_vars' ) ){
+				remove_filter( 'wpseo_opengraph_title', 'ht_code_snippets_fix_yoast_hkb_front_page_title', 50, 1 );
+				remove_filter( 'pre_get_document_title', 'ht_code_snippets_fix_yoast_hkb_front_page_title', 50, 1 ); 
+				$title = wpseo_replace_vars( $title, $post );	
+			}			
+		} else {
+			$title = __('Knowledge Base Homepage');
+		}
+		return $title;
+			
+	}
+	return $title; 
+}

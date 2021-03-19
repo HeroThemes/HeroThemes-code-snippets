@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, faq, widget, snippet
 Requires at least: 5.2
-Version: 0.16
+Version: 0.17
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,11 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.17 =
+
+new ht_kb_disable_live_search example
+new ht_kb_get_ancestors example
 
 = 0.16 =
 
