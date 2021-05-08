@@ -37,9 +37,14 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 == Changelog ==
 
+= 0.19 =
+
+new hkb_get_knowledgebase_searchbox_placeholder_text filter examples
+
 = 0.18 =
 
-new ht_kb_toc_content_filter_post_types example to disable replace functionality
+new ht_kb_toc_content_filter_post_types filter example to disable replace functionality
+new ht_desk_* filter examples
 
 = 0.17 =
 
