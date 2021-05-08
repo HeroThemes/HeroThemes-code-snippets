@@ -37,6 +37,10 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 == Changelog ==
 
+= 0.18 =
+
+new ht_kb_toc_content_filter_post_types example to disable replace functionality
+
 = 0.17 =
 
 new ht_kb_disable_live_search example
