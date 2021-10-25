@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, faq, widget, snippet
 Requires at least: 5.2
-Version: 0.21
+Version: 0.22
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,10 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.22 =
+new translate knowledge base embed strings example
+new ht_kb_articles_widget_exclude_self example
 
 = 0.21 =
 new hkb_breadcrumbs_kb_home_label example
