@@ -37,6 +37,9 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 == Changelog ==
 
+= 0.23 =
+new dequeue common.css example
+
 = 0.22 =
 new translate knowledge base embed strings example
 new ht_kb_articles_widget_exclude_self example
