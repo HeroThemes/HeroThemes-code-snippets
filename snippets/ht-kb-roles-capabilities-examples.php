@@ -96,7 +96,7 @@ function ht_kb_get_capabilities_for_role( $role ){
 	switch ($role) {
 		case 'read':
 			//default caps
-			$capabilities['read'] = true
+			$capabilities['read'] = true;
 			$capabilities['read_ht_kb_articles'] = true;
 			break;
 		case 'edit':
