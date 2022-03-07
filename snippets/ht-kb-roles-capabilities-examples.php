@@ -2,6 +2,7 @@
 /**
 * Adds an Edit Knowledge Base Articles and Read Knowledge Base Articles roles and associated capabilities
 * @requires Heroic Knoweldge Base 3.4+ 
+* To use - add snippet, deactivate and then re-activate the Heroic Knowledge Base plugin, new roles for edit and read knowledge base will then be available
 * Code snippet by @HeroThemes (https://herothemes.com) - Knowledge Base Themes and Plugins for WordPress
 * HeroThemes - Happier Customers, Fewer Support Tickets
 */
@@ -26,6 +27,10 @@ add_filter( 'ht_kb_tag_capabilities', 'ht_kb_tag_capabilities' );
  * Return a capability type to use as a base
  */
 function ht_kb_cpt_capability_type( $type ){
+	//do not apply to existing editors
+	if(current_user_can('edit_posts')){
+		return 'post';
+	}
 	return 'ht_kb_article';
 }
 
@@ -90,10 +95,15 @@ function ht_kb_get_capabilities_for_role( $role ){
 
 	switch ($role) {
 		case 'read':
-			$capabilities['publish_ht_kb_articles'] = true;
+			//default caps
+			$capabilities['read'] = true
+			$capabilities['read_ht_kb_articles'] = true;
 			break;
 		case 'edit':
+			//default caps
+			$capabilities['read'] = true;
 			//valid CPT caps
+			$capabilities['read_ht_kb_articles'] = true;
 			$capabilities['delete_ht_kb_articles'] = true;
 			$capabilities['delete_others_ht_kb_articles'] = true;
 			$capabilities['delete_private_ht_kb_articles'] = true;
