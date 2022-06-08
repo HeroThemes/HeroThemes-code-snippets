@@ -49,6 +49,9 @@ function ht_kb_create_roles(){
  * Create new ht_kb_category taxonomy capabilities
  */
 function ht_kb_category_capabilities( $caps ){
+	if(current_user_can('edit_posts')){
+		return $caps;
+	}
 	return array(
 				'manage_terms'  =>  'manage_'.'ht_kb_category',
 				'edit_terms'    =>  'edit_'.'ht_kb_category',
@@ -61,6 +64,9 @@ function ht_kb_category_capabilities( $caps ){
  * Create new ht_kb_tag taxonomy capabilities
  */
 function ht_kb_tag_capabilities( $caps ){
+	if(current_user_can('edit_posts')){
+		return $caps;
+	}
 	return array(
 				'manage_terms'  =>  'manage_'.'ht_kb_tag',
 				'edit_terms'    =>  'edit_'.'ht_kb_tag',
