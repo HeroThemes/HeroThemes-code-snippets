@@ -5,6 +5,6 @@
 * HeroThemes - Happier Customers, Fewer Support Tickets
 */
 
-//remove voting meta box
+//disable hkb search terms with filter
 add_filter( 'hkb_search_terms', '__return_false' );
 
