@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, inbox, faq, widget, snippet
 Requires at least: 5.2
-Version: 0.27
+Version: 0.28
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,9 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.28 =
+adding translation examples for heroic inbox
 
 = 0.27 =
 adding new examples for heroic inbox filters
