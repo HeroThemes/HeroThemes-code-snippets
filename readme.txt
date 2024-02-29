@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, inbox, faq, widget, snippet
 Requires at least: 5.2
-Version: 0.29
+Version: 0.30
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,9 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.30 =
+adding exclude article from kb search example
 
 = 0.29 =
 adding help assistant display control example
