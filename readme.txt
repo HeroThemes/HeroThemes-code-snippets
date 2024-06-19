@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, inbox, faq, widget, snippet
 Requires at least: 5.2
-Version: 0.31
+Version: 0.32
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,10 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 
 == Changelog ==
+
+= 0.32 =
+adding filter for help assistant display override
+adding filter to override ai assistant training site
 
 = 0.31 =
 adding knowall disable kirki styles in admin example
