@@ -4,7 +4,7 @@
 *   Plugin URI:  http://herothemes.com
 *   Description: Public code snippets by HeroThemes
 *   Author: HeroThemes
-*   Version: 0.29
+*   Version: 0.33
 *   Author URI: https://herothemes.com/
 *   Text Domain: ht-code-snippets
 */
