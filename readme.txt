@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: knowledge base, knowledge plugin, inbox, faq, widget, snippet
 Requires at least: 5.2
-Version: 0.34
+Version: 0.36
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,8 +37,13 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 == Changelog ==
 
-= 0.35 =
+= 0.36 =
+
 adding FSE preview filters
+
+= 0.35 =
+
+adding ht_kb_settings option debug example
 
 = 0.34 =
 adding ht_formatting_blocks_enabled example to disable the formatting blocks module
