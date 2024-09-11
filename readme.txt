@@ -37,6 +37,9 @@ A. Please consult the documentation accompanying this plugin or see https://hero
 
 == Changelog ==
 
+= 0.35 =
+adding FSE preview filters
+
 = 0.34 =
 adding ht_formatting_blocks_enabled example to disable the formatting blocks module
 
